@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+body{
+    background-image: url(/images/backgroudgif.gif);
+    background-size:cover;
+    background-clip: border-box;
+}
+.card{
+    width: 90%;
+    max-width: 460px;
+    background:linear-gradient(135deg,#97c6d8,#005063);
+    color: #fff;
+    margin: 10px auto 0;
+    border-radius: 20px;
+    padding: 40px 50px;
+    text-align: center;
+
+}
+.search{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content:space-between ;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background:#ebfffc;
+    color:#555;
+    padding: 16px 25px;
+    height: 50px;
+    border-radius: 30px;
+    flex: 1;
+    margin-left: 16px;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background:#ebfffc;
+    border-radius: 30%;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.search input:focus{
+    border: 2px solid seagreen;
+    background:#ebfffc;
+    color:#555;
+    padding: 16px 25px;
+    height: 50px;
+    border-radius: 30px;
+    flex: 1;
+    margin-left: 16px;
+    font-size: 18px;
+}
+.search button:hover{
+    border: solid 2px;
+    background:#ebfffc;
+    border-radius: 30%;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.search button img{
+    width: 19px;
+}
+.wheather-icon{
+    width: 180px;
+    margin-top: 30px;
+}
+.wheather h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.wheather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 10px 10px;
+    margin-top: 40px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left; 
+}
+.col img{
+    width: 40px;
+    margin-right: 10px; 
+}
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -1px;
+}
+.wheather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 33px;
+    color:rgb(228, 69, 69);
+    margin-top: 4px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: none;
+}
